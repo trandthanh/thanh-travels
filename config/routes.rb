@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
   root to: 'pages#home'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  resources :continents, only: [:index]
+  resources :countries, only: [:index]
+  resources :locations, only: [:index]
+
+  get 'locations/:url', to: 'locations#show', as: :location
+  get 'continents/:continent_name', to: 'continents#show', as: :continent
 end

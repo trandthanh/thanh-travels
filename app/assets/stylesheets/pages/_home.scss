@@ -1,1 +1,58 @@
-// Specific CSS for your home-page
+
+.home-thanh-travels {
+  overflow-y: hidden;
+}
+
+.scroll {
+  height: auto;
+}
+
+.home-thanh-travels{
+  .horizontal-scroll{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    height: 80vh;
+    align-items: center;
+    background-color: white;
+    .scroll{
+      flex: 0 0 auto;
+      margin-right: 30px;
+      display: block;
+      width: auto;
+    }
+  }
+}
+
+.horizontal-scroll a {
+  display: inline-block;
+}
+.one {
+  width: 65%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+.two {
+  width: 65%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+.three {
+  width: 65%;
+  height: 80vh;
+  background-image: image-url("pacificcoasthighway-banner.JPG");
+  background-size: cover;
+
+}
+
+.four {
+  width: 65%;
+  height: 80vh;
+  background-image: image-url("santabarbara-banner.JPG");
+  background-size: cover;
+  background-position: center center;
+}

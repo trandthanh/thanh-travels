@@ -1,13 +1,26 @@
 .navbar-thanh-travels {
   height: 110px;
-  border-bottom: solid 2px black;
 
   padding: 30px;
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+  }
 }
 
 .logo {
   height: 85px;
+}
+
+.navbar-right-items {
+  width: 30%;
+
+  display: flex;
+  justify-content: space-around;
 }
