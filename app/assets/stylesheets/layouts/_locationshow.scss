@@ -1,0 +1,60 @@
+.location-show-banner {
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 150px;
+    color: white;
+  }
+}
+
+.location-show-panel {
+  height: 110vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-show-panel-pano {
+  height: 50vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontal-first {
+  height: 70%;
+}
+
+.duo-vertical-first {
+  height: 80%;
+}
+
+.duo-horizontal-first {
+  height: 50%;
+  margin-left: -30px;
+}
+
+
+.pano-first {
+  width: 90%;
+}
+
+.duo-vertical-two {
+  height: 60%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.duo-vertical-three {
+  height: 80%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
