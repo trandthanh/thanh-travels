@@ -1,11 +1,11 @@
-<div class="location-show-banner" style="background-image: linear-gradient(-225deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 50%), url(<%= asset_path "#{@location.url}-banner.jpg" %>)">
+<div class="location-show-banner" style="background-image: url(<%= asset_path "#{@location.url}-banner.jpg" %>)">
 
   <h1><%= @location.location_name.upcase %></h1>
 
 </div>
 
 <div class="location-show-panel">
-  <%= image_tag ("#{@location.url}-photo-horizontal-1.jpg"), class: "horizontal-first" %>
+  <%= image_tag ("#{@location.url}-photo-horizontal-1.jpg"), class: "horizontal-alone" %>
 </div>
 
 <div class="location-show-panel">
@@ -27,5 +27,5 @@
 </div>
 
 <div class="location-show-panel">
-  <%= image_tag ("#{@location.url}-photo-horizontal-3.jpg"), class: "horizontal-first" %>
+  <%= image_tag ("#{@location.url}-photo-horizontal-3.jpg"), class: "horizontal-alone" %>
 </div>

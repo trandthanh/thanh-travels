@@ -1,60 +1,417 @@
-.location-show-banner {
-  background-size: cover;
-  background-position: center;
-  height: 90vh;
+/*
+##Device = Desktops
+##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  .location-show-banner {
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  h1 {
-    font-size: 150px;
-    color: white;
+    h1 {
+      font-size: 150px;
+      color: white;
+    }
+  }
+
+  .location-show-panel {
+    height: 110vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .location-show-panel-pano {
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .horizontal-alone {
+    height: 80vh;
+  }
+
+  .duo-vertical-first {
+    height: 80%;
+  }
+
+  .duo-horizontal-first {
+    height: 50%;
+    margin-left: -30px;
+  }
+
+
+  .pano-first {
+    width: 90%;
+  }
+
+  .duo-vertical-two {
+    height: 60%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .duo-vertical-three {
+    height: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
-.location-show-panel {
-  height: 110vh;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+/*
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .location-show-banner {
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 150px;
+      color: white;
+    }
+  }
+
+  .location-show-panel {
+    height: 110vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .location-show-panel-pano {
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .horizontal-alone {
+    height: 80vh;
+  }
+
+  .duo-vertical-first {
+    height: 80%;
+  }
+
+  .duo-horizontal-first {
+    height: 50%;
+    margin-left: -30px;
+  }
+
+
+  .pano-first {
+    width: 90%;
+  }
+
+  .duo-vertical-two {
+    height: 60%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .duo-vertical-three {
+    height: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+/*
+
+
+
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .location-show-banner {
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 90px;
+      color: white;
+    }
+  }
+
+  .location-show-panel {
+    height: 110vh;
+    width: 100vw;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .location-show-panel-pano {
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .horizontal-alone {
+    height: 80vh;
+  }
+
+  .duo-vertical-first {
+    height: 80%;
+  }
+
+  .duo-horizontal-first {
+    height: 50%;
+    margin-left: -30px;
+  }
+
+
+  .pano-first {
+    width: 90%;
+  }
+
+  .duo-vertical-two {
+    height: 60%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .duo-vertical-three {
+    height: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
-.location-show-panel-pano {
-  height: 50vh;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+/*
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .location-show-banner {
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 150px;
+      color: white;
+    }
+  }
+
+  .location-show-panel {
+    height: 110vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .location-show-panel-pano {
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .horizontal-alone {
+    height: 80vh;
+  }
+
+  .duo-vertical-first {
+    height: 80%;
+  }
+
+  .duo-horizontal-first {
+    height: 50%;
+    margin-left: -30px;
+  }
+
+
+  .pano-first {
+    width: 90%;
+  }
+
+  .duo-vertical-two {
+    height: 60%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .duo-vertical-three {
+    height: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
-.horizontal-first {
-  height: 70%;
-}
-
-.duo-vertical-first {
-  height: 80%;
-}
-
-.duo-horizontal-first {
-  height: 50%;
-  margin-left: -30px;
-}
 
 
-.pano-first {
-  width: 90%;
+/*
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .location-show-banner {
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 150px;
+      color: white;
+    }
+  }
+
+  .location-show-panel {
+    height: 110vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .location-show-panel-pano {
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .horizontal-alone {
+    height: 80vh;
+  }
+
+  .duo-vertical-first {
+    height: 80%;
+  }
+
+  .duo-horizontal-first {
+    height: 50%;
+    margin-left: -30px;
+  }
+
+
+  .pano-first {
+    width: 90%;
+  }
+
+  .duo-vertical-two {
+    height: 60%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .duo-vertical-three {
+    height: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
-.duo-vertical-two {
-  height: 60%;
-  margin-left: 10px;
-  margin-right: 10px;
+
+
+/*
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .location-show-banner {
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 90px;
+      color: white;
+    }
+  }
+
+  .location-show-panel {
+    height: 110vh;
+    width: 100vw;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .location-show-panel-pano {
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .horizontal-alone {
+    height: 80vh;
+  }
+
+  .duo-vertical-first {
+    height: 80%;
+  }
+
+  .duo-horizontal-first {
+    height: 50%;
+    margin-left: -30px;
+  }
+
+
+  .pano-first {
+    width: 90%;
+  }
+
+  .duo-vertical-two {
+    height: 60%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .duo-vertical-three {
+    height: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
-.duo-vertical-three {
-  height: 80%;
-  margin-left: 10px;
-  margin-right: 10px;
-}
+
