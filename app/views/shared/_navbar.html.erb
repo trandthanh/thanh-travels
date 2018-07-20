@@ -10,11 +10,13 @@
         <p>Asia</p>
       </button>
       <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-        <li><a href="#">Action 1</a></li>
-        <li><a href="#">Another action</a></li>
-        <li><a href="#">Something else here</a></li>
-        <li role="separator" class="divider"></li>
-        <li><a href="#">Separated link</a></li>
+        <% @asia_countries.sort.each do |c| %>
+          <li>
+            <%= link_to root_path do %>
+              <%= c.country_name %>
+            <% end %>
+          </li>
+        <% end %>
       </ul>
     </div>
 
@@ -23,11 +25,13 @@
         <p>Europe</p>
       </button>
       <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-        <li><a href="#">Action 2</a></li>
-        <li><a href="#">Another action</a></li>
-        <li><a href="#">Something else here</a></li>
-        <li role="separator" class="divider"></li>
-        <li><a href="#">Separated link</a></li>
+        <% @europe_countries.sort.each do |c| %>
+          <li>
+            <%= link_to root_path do %>
+              <%= c.country_name %>
+            <% end %>
+          </li>
+        <% end %>
       </ul>
     </div>
 
@@ -36,11 +40,13 @@
         <p>North America</p>
       </button>
       <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-        <li><a href="#">Action 3</a></li>
-        <li><a href="#">Another action</a></li>
-        <li><a href="#">Something else here</a></li>
-        <li role="separator" class="divider"></li>
-        <li><a href="#">Separated link</a></li>
+        <% @namerica_countries.sort.each do |c| %>
+          <li>
+            <%= link_to root_path do %>
+              <%= c.country_name %>
+            <% end %>
+          </li>
+        <% end %>
       </ul>
     </div>
 
