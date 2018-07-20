@@ -1,1 +1,20 @@
 <%= render "locations/#{@location_url}" %>
+
+
+<!-- Footer -->
+
+<div class="location-show-footer">
+  <div class="location-show-footer-text text-center">
+    <h3>let's keep travelling</h3>
+    <%= link_to location_path(@location_random) do %>
+      <h1><em>THE WORLD</em></h1>
+    <% end %>
+  </div>
+
+  <div class="location-show-footer-logo text-center">
+    <%= image_tag ("logo.png"), class: "small-logo" %>
+  </div>
+  <div class="location-show-footer-copyright text-center">
+    <p>Made with love by Studio BOLE ©</p>
+  </div>
+</div>
