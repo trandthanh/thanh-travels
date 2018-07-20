@@ -26,22 +26,3 @@
 
 
 // Dropdown
-
-.dropdown-content {
-  display: block;
-  visibility: hidden;
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-.test:hover {
-  .dropdown-content {
-    visibility: visible;
-    display: block;
-    height: 100px;
-    background-color: red;
-  }
-}
-
-

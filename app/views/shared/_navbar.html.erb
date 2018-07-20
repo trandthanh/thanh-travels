@@ -4,37 +4,61 @@
   <% end %>
 
   <div class="navbar-right-items">
-    <%= link_to root_path do %>
-      <div class="dropdown">
-        <div class="dropbtn"><p class="test">Asia</p></div>
 
-        <% @asia_countries.each do |c| %>
-          <div class="dropdown-content">
-            <%= link_to root_path do %>
-              <%= c.country_name %>
-            <% end %>
-          </div>
-        <% end %>
-
-      </div>
-    <% end %>
-
-    <li>
-      <%= link_to root_path do %>
+    <div class="dropdown">
+      <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
         <p>Asia</p>
-      <% end %>
-
-      <ul class="dropdown">
-
-
-
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li><a href="#">Action 1</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">Separated link</a></li>
       </ul>
-    </li>
+    </div>
 
+    <div class="dropdown">
+      <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <p>Europe</p>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li><a href="#">Action 2</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+      </ul>
+    </div>
 
-    <p><%= link_to "Europe", root_path %></p>
-    <p><%= link_to "North America", root_path %></p>
-    <p><%= link_to "About", root_path %></p>
+    <div class="dropdown">
+      <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <p>North America</p>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li><a href="#">Action 3</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+      </ul>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <p>About</p>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li><a href="#">Action 4</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+      </ul>
+    </div>
+
   </div>
 </div>
+
+
 
