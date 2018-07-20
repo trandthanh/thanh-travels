@@ -4,7 +4,34 @@
   <% end %>
 
   <div class="navbar-right-items">
-    <p><%= link_to "Asia", root_path %></p>
+    <%= link_to root_path do %>
+      <div class="dropdown">
+        <div class="dropbtn"><p class="test">Asia</p></div>
+
+        <% @asia_countries.each do |c| %>
+          <div class="dropdown-content">
+            <%= link_to root_path do %>
+              <%= c.country_name %>
+            <% end %>
+          </div>
+        <% end %>
+
+      </div>
+    <% end %>
+
+    <li>
+      <%= link_to root_path do %>
+        <p>Asia</p>
+      <% end %>
+
+      <ul class="dropdown">
+
+
+
+      </ul>
+    </li>
+
+
     <p><%= link_to "Europe", root_path %></p>
     <p><%= link_to "North America", root_path %></p>
     <p><%= link_to "About", root_path %></p>
