@@ -7,4 +7,5 @@ Rails.application.routes.draw do
 
   get 'locations/:url', to: 'locations#show', as: :location
   get 'continents/:continent_name', to: 'continents#show', as: :continent
+  get 'countries/:country_name', to: 'countries#show', as: :country
 end
