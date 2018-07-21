@@ -1,0 +1,10 @@
+<div class="country-show">
+  <div class="horizontal-scroll">
+    <% @usa_locations.each do |l| %>
+      <%= link_to location_path(l.url) do %>
+        <%= image_tag ("#{l.url}-banner.jpg"), class: "scroll one" %>
+      <% end %>
+    <% end %>
+  </div>
+</div>
+
