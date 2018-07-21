@@ -9,4 +9,8 @@ class PagesController < ApplicationController
     # Featured Locations
     @featured_locations = Location.where("featured = true")
   end
+
+  def about
+
+  end
 end
