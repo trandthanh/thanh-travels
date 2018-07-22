@@ -11,6 +11,9 @@ class PagesController < ApplicationController
   end
 
   def about
-
+    # Navbar
+    @asia_countries = Country.where("continent_id = '3'")
+    @europe_countries = Country.where("continent_id = '2'")
+    @namerica_countries = Country.where("continent_id = '1'")
   end
 end
