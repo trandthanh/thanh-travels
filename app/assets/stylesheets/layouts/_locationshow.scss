@@ -14,7 +14,9 @@
 
     h1 {
       font-size: 150px;
+      text-align: center;
       color: white;
+      text-shadow: 4px 4px 4px black;
     }
   }
 
@@ -52,6 +54,15 @@
     margin-left: -30px;
   }
 
+  .duo-horizontal-two {
+    height: 50%;
+    margin: 30px;
+  }
+
+  .duo-horizontal-three {
+    height: 50%;
+    margin: 30px;
+  }
 
   .pano-first {
     width: 90%;

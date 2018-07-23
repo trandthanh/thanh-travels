@@ -1,1 +1,45 @@
-<h1>Hi you're in Death Valley!</h1>
+<div class="location-show-banner" style="background-image: url(<%= asset_path "#{@location.url}-baner.jpg" %>)">
+
+  <h1><%= @location.location_name.upcase %></h1>
+
+</div>
+
+<div class="location-show-panel">
+  <%= image_tag ("#{@location.url}-photo-horizontal-1.jpg"), class: "horizontal-alone" %>
+</div>
+
+<div class="location-show-text text-center">
+  <h4><em>"The most spectacular place I've ever visited."</em></h4>
+</div>
+
+<div class="location-show-panel">
+  <%= image_tag ("#{@location.url}-photo-horizontal-2.jpg"), class: "horizontal-alone" %>
+</div>
+
+<div class="location-show-panel">
+  <%= image_tag ("#{@location.url}-photo-vertical-1.jpg"), class: "duo-vertical-first" %>
+  <%= image_tag ("#{@location.url}-photo-horizontal-5.jpg"), class: "duo-horizontal-first" %>
+</div>
+
+<div class="location-show-panel">
+  <%= image_tag ("#{@location.url}-photo-horizontal-3.jpg"), class: "horizontal-alone" %>
+</div>
+
+<div class="location-show-panel">
+  <%= image_tag ("#{@location.url}-photo-horizontal-4.jpg"), class: "horizontal-alone" %>
+</div>
+
+<div class="location-show-panel">
+  <%= image_tag ("#{@location.url}-photo-vertical-3.jpg"), class: "duo-vertical-first" %>
+  <%= image_tag ("#{@location.url}-photo-horizontal-8.jpg"), class: "duo-horizontal-three" %>
+</div>
+
+<div class="location-show-panel">
+  <%= image_tag ("#{@location.url}-photo-horizontal-6.jpg"), class: "horizontal-alone" %>
+</div>
+
+
+<div class="location-show-panel">
+  <%= image_tag ("#{@location.url}-photo-vertical-2.jpg"), class: "duo-vertical-first" %>
+  <%= image_tag ("#{@location.url}-photo-horizontal-9.jpg"), class: "horizontal-alone" %>
+</div>

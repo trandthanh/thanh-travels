@@ -1,0 +1,36 @@
+<div class="location-show-banner" style="background-image: url(<%= asset_path "#{@location.url}-baner.jpg" %>)">
+
+  <h1><%= @location.location_name.upcase %></h1>
+
+</div>
+
+<div class="location-show-panel">
+  <%= image_tag ("#{@location.url}-photo-horizontal-1.jpg"), class: "horizontal-alone" %>
+</div>
+
+<div class="location-show-text text-center">
+  <h4><em>"California, here we come."</em></h4>
+</div>
+
+<div class="location-show-panel">
+  <%= image_tag ("#{@location.url}-photo-horizontal-2.jpg"), class: "horizontal-alone" %>
+</div>
+
+<div class="location-show-panel">
+  <%= image_tag ("#{@location.url}-photo-horizontal-4.jpg"), class: "duo-vertical-first" %>
+  <%= image_tag ("#{@location.url}-photo-horizontal-5.jpg"), class: "duo-horizontal-first" %>
+</div>
+
+<div class="location-show-panel">
+  <%= image_tag ("#{@location.url}-photo-horizontal-6.jpg"), class: "horizontal-alone" %>
+</div>
+
+<div class="location-show-panel">
+  <%= image_tag ("#{@location.url}-photo-horizontal-7.jpg"), class: "horizontal-alone" %>
+</div>
+
+<div class="location-show-panel">
+  <%= image_tag ("#{@location.url}-photo-horizontal-8.jpg"), class: "duo-horizontal-two" %>
+  <%= image_tag ("#{@location.url}-photo-horizontal-9.jpg"), class: "duo-horizontal-three" %>
+</div>
+
