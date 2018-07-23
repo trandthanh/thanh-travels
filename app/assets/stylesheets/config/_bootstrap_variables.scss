@@ -52,7 +52,18 @@ $border-radius-small: 2px;
 
 // Override other variables below!
 
-button {
-  border: 0px solid white;
-  background-color: white;
+.dropdown {
+  button {
+    border: 0px solid white;
+    background-color: white;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  ul > li > a {
+    &:hover {
+      text-decoration: underline;
+      background-color: white;
+    }
+  }
 }
