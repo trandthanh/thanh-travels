@@ -9,7 +9,7 @@
         <p>Asia</p>
       </button>
       <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-        <% @asia_countries.sort.each do |c| %>
+        <% @asia_countries.order(:country_name).each do |c| %>
           <li>
             <%= link_to country_path(c.country_name.downcase) do %>
               <%= c.country_name %>
@@ -23,7 +23,7 @@
         <p>Europe</p>
       </button>
       <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-        <% @europe_countries.sort.each do |c| %>
+        <% @europe_countries.order(:country_name).each do |c| %>
           <li>
             <%= link_to country_path(c.country_name.downcase) do %>
               <%= c.country_name %>
@@ -37,7 +37,7 @@
         <p>North America</p>
       </button>
       <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-        <% @namerica_countries.sort.each do |c| %>
+        <% @namerica_countries.order(:country_name).each do |c| %>
           <li>
             <%= link_to country_path(c.country_name.downcase) do %>
               <%= c.country_name %>

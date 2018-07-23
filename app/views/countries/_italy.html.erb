@@ -1,9 +1,14 @@
 <div class="country-show">
   <div class="horizontal-scroll">
     <% @italy_locations.each do |l| %>
-      <%= link_to location_path(l.url) do %>
-        <%= image_tag ("#{l.url}-baner.jpg"), class: "scroll one" %>
-      <% end %>
+      <div class="banner">
+        <%= link_to location_path(l.url) do %>
+          <%= image_tag ("#{l.url}-baner.jpg"), class: "scroll one" %>
+          <div class="overlay">
+            <h1><%= l.location_name %></h1>
+          </div>
+        <% end %>
+      </div>
     <% end %>
   </div>
 </div>
