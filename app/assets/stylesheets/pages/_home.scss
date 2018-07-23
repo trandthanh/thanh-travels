@@ -25,24 +25,42 @@
 .horizontal-scroll a {
   display: inline-block;
 }
+
 .one {
   width: 65%;
   height: 80vh;
   background-size: cover;
   background-position: center center;
+
 }
 
-.two {
-  width: 65%;
-  height: 80vh;
-  background-size: cover;
-  background-position: center center;
+// Hover Effect on Image
+
+.banner {
+  position: relative;
 }
 
-.three {
-  width: 65%;
-  height: 80vh;
-  background-size: cover;
-  background-position: center center;
+.banner:hover .overlay {
+  opacity: 0.5;
 }
 
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    color: black;
+    font-size: 120px;
+  }
+}

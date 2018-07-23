@@ -1,15 +1,28 @@
 <div class="home-thanh-travels">
   <div class="horizontal-scroll">
-    <%= link_to location_path(@featured_locations[0].url) do %>
-      <%= image_tag ("#{@featured_locations[0].url}-baner.jpg"), class: "scroll one" %>
-    <% end %>
+    <div class="banner">
+      <%= link_to location_path(@featured_locations[0].url) do %>
+        <%= image_tag ("#{@featured_locations[0].url}-baner.jpg"), class: "scroll one" %>
+        <div class="overlay">
+          <h1>Death Valley</h1>
+        </div>
+      <% end %>
 
-    <%= link_to location_path(@featured_locations[1].url) do %>
-      <%= image_tag ("#{@featured_locations[1].url}-baner.jpg"), class: "scroll two" %>
-    <% end %>
+    </div>
 
-    <%= link_to location_path(@featured_locations[2].url) do %>
-      <%= image_tag ("#{@featured_locations[2].url}-baner.jpg"), class: "scroll three" %>
-    <% end %>
+    <div class="banner">
+      <%= link_to location_path(@featured_locations[1].url) do %>
+        <%= image_tag ("#{@featured_locations[1].url}-baner.jpg"), class: "scroll one" %>
+      <% end %>
+      <div class="overlay">
+        <p>Florence</p>
+      </div>
+    </div>
+
+    <div>
+      <%= link_to location_path(@featured_locations[2].url) do %>
+        <%= image_tag ("#{@featured_locations[2].url}-baner.jpg"), class: "scroll one" %>
+      <% end %>
+    </div>
   </div>
 </div>
