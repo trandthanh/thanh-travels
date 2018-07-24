@@ -1,66 +1,512 @@
-.home-thanh-travels {
-  overflow-y: hidden;
-}
+/*
+ONE
+##Device = Desktops
+##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  .home-thanh-travels {
+    overflow-y: hidden;
+  }
 
-.scroll {
-  height: auto;
-}
+  .scroll {
+    height: auto;
+  }
 
-.home-thanh-travels{
-  .horizontal-scroll{
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: auto;
-    height: 80vh;
-    align-items: center;
-    background-color: white;
-    .scroll{
-      flex: 0 0 auto;
-      display: block;
-      width: auto;
+  .home-thanh-travels{
+    .horizontal-scroll{
+      display: flex;
+      flex-wrap: nowrap;
+      overflow: auto;
+      height: 80vh;
+      align-items: center;
+      background-color: white;
+      .scroll{
+        flex: 0 0 auto;
+        display: block;
+        width: auto;
+      }
     }
   }
-}
 
-.horizontal-scroll a {
-  display: inline-block;
-}
+  .horizontal-scroll a {
+    display: inline-block;
+  }
 
-.one {
-  width: 65%;
-  height: 80vh;
-  background-size: cover;
-  background-position: center center;
+  .one {
+    width: 65%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
 
-}
+  }
 
-// Hover Effect on Image
+  // Hover Effect on Image
 
-.banner {
-  position: relative;
-}
+  .banner {
+    position: relative;
+  }
 
-.banner:hover .overlay {
-  opacity: 0.6;
-}
+  .banner:hover .overlay {
+    opacity: 0.6;
+  }
 
-.overlay {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  background-color: white;
+  .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: white;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  h1 {
-    color: black;
-    font-size: 60px;
+    h1 {
+      color: black;
+      font-size: 60px;
+    }
+  }
+
+  // Remove classes here
+
+  .scroll-horizontally {
+    display: none;
   }
 }
+
+
+
+/*
+TWO
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .home-thanh-travels {
+    overflow-y: hidden;
+  }
+
+  .scroll {
+    height: auto;
+  }
+
+  .home-thanh-travels{
+    .horizontal-scroll{
+      display: flex;
+      flex-wrap: nowrap;
+      overflow: auto;
+      height: 80vh;
+      align-items: center;
+      background-color: white;
+      .scroll{
+        flex: 0 0 auto;
+        display: block;
+        width: auto;
+      }
+    }
+  }
+
+  .horizontal-scroll a {
+    display: inline-block;
+  }
+
+  .one {
+    width: 65%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+
+  }
+
+  // Hover Effect on Image
+
+  .banner {
+    position: relative;
+  }
+
+  .banner:hover .overlay {
+    opacity: 0.6;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      color: black;
+      font-size: 60px;
+    }
+  }
+
+  // Remove classes here
+
+  .scroll-horizontally {
+    display: none;
+  }
+}
+
+
+
+/*
+THREE
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home-thanh-travels {
+    overflow-y: hidden;
+  }
+
+  .scroll {
+    height: auto;
+  }
+
+  .home-thanh-travels{
+    .horizontal-scroll{
+      display: flex;
+      flex-wrap: nowrap;
+      overflow: auto;
+      height: 80vh;
+      align-items: center;
+      background-color: white;
+      .scroll{
+        flex: 0 0 auto;
+        display: block;
+        width: auto;
+      }
+    }
+  }
+
+  .horizontal-scroll a {
+    display: inline-block;
+  }
+
+  .one {
+    width: 65%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+
+  }
+
+  // Hover Effect on Image
+
+  .banner {
+    position: relative;
+  }
+
+  .banner:hover .overlay {
+    opacity: 0.6;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      color: black;
+      font-size: 60px;
+    }
+  }
+
+  .scroll-horizontally {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    i {
+      font-size: 30px;
+      padding-left: 20px;
+    }
+  }
+
+  // Remove classes here
+
+
+}
+
+
+
+/*
+FOUR
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .home-thanh-travels {
+      overflow-y: hidden;
+    }
+
+    .scroll {
+      height: auto;
+    }
+
+    .home-thanh-travels{
+      .horizontal-scroll{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: auto;
+        height: 80vh;
+        align-items: center;
+        background-color: white;
+        .scroll{
+          flex: 0 0 auto;
+          display: block;
+          width: auto;
+        }
+      }
+    }
+
+    .horizontal-scroll a {
+      display: inline-block;
+    }
+
+    .one {
+      width: 65%;
+      height: 80vh;
+      background-size: cover;
+      background-position: center center;
+
+    }
+
+    // Hover Effect on Image
+
+    .banner {
+      position: relative;
+    }
+
+    .banner:hover .overlay {
+      opacity: 0.6;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      background-color: white;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      h1 {
+        color: black;
+        font-size: 60px;
+      }
+    }
+
+    // Remove classes here
+
+    .scroll-horizontally {
+      display: none;
+    }
+}
+
+
+
+/*
+FIVE
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .home-thanh-travels {
+      overflow-y: hidden;
+    }
+
+    .scroll {
+      height: auto;
+    }
+
+    .home-thanh-travels{
+      .horizontal-scroll{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: auto;
+        height: 80vh;
+        align-items: center;
+        background-color: white;
+        .scroll{
+          flex: 0 0 auto;
+          display: block;
+          width: auto;
+        }
+      }
+    }
+
+    .horizontal-scroll a {
+      display: inline-block;
+    }
+
+    .one {
+      width: 65%;
+      height: 80vh;
+      background-size: cover;
+      background-position: center center;
+
+    }
+
+    // Hover Effect on Image
+
+    .banner {
+      position: relative;
+    }
+
+    .banner:hover .overlay {
+      opacity: 0.6;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      background-color: white;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      h1 {
+        color: black;
+        font-size: 60px;
+      }
+    }
+
+    // Remove classes here
+
+    .scroll-horizontally {
+      display: none;
+    }
+}
+
+
+
+/*
+SIX
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .home-thanh-travels {
+    overflow-y: hidden;
+  }
+
+  .scroll {
+    height: auto;
+  }
+
+  .home-thanh-travels{
+    .horizontal-scroll{
+      display: flex;
+      flex-wrap: nowrap;
+      overflow: auto;
+      height: 80vh;
+      align-items: center;
+      background-color: white;
+      .scroll{
+        flex: 0 0 auto;
+        display: block;
+        width: auto;
+      }
+    }
+  }
+
+  .horizontal-scroll a {
+    display: inline-block;
+  }
+
+  .one {
+    width: 65%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+
+  }
+
+  // Hover Effect on Image
+
+  .banner {
+    position: relative;
+  }
+
+  .banner:hover .overlay {
+    opacity: 0.6;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      color: black;
+      font-size: 60px;
+    }
+  }
+
+  .scroll-horizontally {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h4 {
+      font-size: 15px;
+    }
+
+    i {
+      font-size: 20px;
+      padding-left: 10px;
+    }
+  }
+
+  // Remove classes here
+}
+
+
+
