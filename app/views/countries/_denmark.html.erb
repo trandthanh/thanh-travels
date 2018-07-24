@@ -1,0 +1,15 @@
+<div class="country-show">
+  <div class="horizontal-scroll">
+    <% @denmark_locations.each do |l| %>
+      <div class="banner">
+        <%= link_to location_path(l.url) do %>
+          <%= cl_image_tag ("thanh-travels/Copenhagen/#{l.url}-banner.jpg"), class: "scroll one" %>
+          <div class="overlay">
+            <h1><%= l.location_name %></h1>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>
+

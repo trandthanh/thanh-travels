@@ -1,1 +1,65 @@
-<%= cl_image_tag("thanh-travels/Copenhagen/IMG_6123.jpg") %>
+<div class="location-show-banner" style="background-image: url(<%= asset_path "#{@location.url}-banner.jpg" %>)">
+  <h1><%= @location.location_name.upcase %></h1>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag ("thanh-travels/Copenhagen/#{@location.url}-photo-horizontal-1.jpg"), class: "duo-horizontal-two" %>
+  <%= cl_image_tag ("thanh-travels/Copenhagen/#{@location.url}-photo-horizontal-2.jpg"), class: "duo-horizontal-three" %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag("thanh-travels/Copenhagen/#{@location.url}-photo-vertical-1.jpg", :angle=>"auto_right", class: "vertical-alone") %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag ("thanh-travels/Copenhagen/#{@location.url}-photo-horizontal-3.jpg"), class: "duo-horizontal-two" %>
+  <%= cl_image_tag ("thanh-travels/Copenhagen/#{@location.url}-photo-horizontal-4.jpg"), class: "duo-horizontal-three" %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag("thanh-travels/Copenhagen/#{@location.url}-photo-vertical-2.jpg", :angle=>"auto_right", class: "duo-vertical-first") %>
+  <%= cl_image_tag ("thanh-travels/Copenhagen/#{@location.url}-photo-horizontal-5.jpg"), class: "duo-horizontal-first" %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag("thanh-travels/Copenhagen/#{@location.url}-photo-horizontal-6.jpg", class: "horizontal-alone") %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag("thanh-travels/Copenhagen/#{@location.url}-photo-vertical-3.jpg", :angle=>"auto_right", class: "duo-vertical-first") %>
+  <%= cl_image_tag ("thanh-travels/Copenhagen/#{@location.url}-photo-horizontal-7.jpg"), class: "duo-horizontal-first" %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag("thanh-travels/Copenhagen/#{@location.url}-photo-vertical-4.jpg", :angle=>"auto_right", class: "duo-vertical-first") %>
+  <%= cl_image_tag ("thanh-travels/Copenhagen/#{@location.url}-photo-horizontal-8.jpg"), class: "duo-horizontal-first" %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag ("thanh-travels/Copenhagen/#{@location.url}-photo-horizontal-9.jpg"), class: "horizontal-alone" %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag ("thanh-travels/Copenhagen/copenhague-photo-horizontal-10.jpg"), class: "horizontal-alone" %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag ("thanh-travels/Copenhagen/copenhague-photo-horizontal-11.jpg"), class: "horizontal-alone-two" %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag ("thanh-travels/Copenhagen/copenhague-photo-horizontal-12.jpg"), class: "horizontal-alone" %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag ("thanh-travels/Copenhagen/copenhague-photo-horizontal-13.jpg"), class: "duo-horizontal-two" %>
+  <%= cl_image_tag ("thanh-travels/Copenhagen/copenhague-photo-horizontal-14.jpg"), class: "duo-horizontal-three" %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag ("thanh-travels/Copenhagen/copenhague-photo-horizontal-15.jpg"), class: "horizontal-alone" %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag("thanh-travels/Copenhagen/copenhague-photo-vertical-5.jpg", :angle=>"auto_right", class: "vertical-alone") %>
+</div>

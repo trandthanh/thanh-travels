@@ -7,6 +7,7 @@ class CountriesController < ApplicationController
     @country_locations = Location.where("country_id = 3")
     @italy_locations = Location.where("country_id = 2")
     @usa_locations = Location.where("country_id = 1")
+    @denmark_locations = Location.where("country_id = 4")
 
     # Navbar
     @asia_countries = Country.where("continent_id = '3'")
