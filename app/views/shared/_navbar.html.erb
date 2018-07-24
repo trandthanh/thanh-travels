@@ -56,5 +56,51 @@
   </div>
 </div>
 
+<!-- MOBILE HTML -->
+
+<div class="navbar-mobile">
+  <%= link_to root_path do %>
+    <%= image_tag ("logo.png"), class: "logo" %>
+  <% end %>
+
+  <div class="navbar-right-items">
+    <div id="mySidenav" class="sidenav">
+      <a href="#" class="closebtn">&times;</a>
+      <div class="navbar-continent">
+        <h2>Asia</h2>
+        <% @asia_countries.order(:country_name).each do |c| %>
+          <%= link_to country_path(c.country_name.downcase) do %>
+            <%= c.country_name %>
+          <% end %>
+        <% end %>
+      </div>
+      <div class="navbar-continent">
+        <h2>Europe</h2>
+        <% @europe_countries.order(:country_name).each do |c| %>
+          <%= link_to country_path(c.country_name.downcase) do %>
+            <%= c.country_name %>
+          <% end %>
+        <% end %>
+      </div>
+      <div class="navbar-continent">
+        <h2>North America</h2>
+        <% @namerica_countries.order(:country_name).each do |c| %>
+          <%= link_to country_path(c.country_name.downcase) do %>
+            <%= c.country_name %>
+          <% end %>
+        <% end %>
+      </div>
+      <div class="navbar-continent">
+        <%= link_to about_path do %>
+          <h2>About</h2>
+        <% end %>
+      </div>
+
+
+    </div>
+    <!-- Use any element to open the sidenav -->
+    <span id="opensidenav"><i class="fas fa-bars"></i></span>
+  </div>
+</div>
 
 

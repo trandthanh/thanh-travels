@@ -110,73 +110,100 @@ TWO
 */
 @media (min-width: 1025px) and (max-width: 1280px) {
   .location-show-banner {
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
+     background-size: cover;
+     background-position: center;
+     height: 90vh;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
 
-    h1 {
-      font-size: 150px;
-      color: white;
-    }
-  }
+     margin-bottom: 100px;
 
-  .location-show-panel {
-    height: 110vh;
+     h1 {
+       font-size: 150px;
+       text-align: center;
+       color: white;
+       text-shadow: 4px 4px 4px black;
+     }
+   }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+   .location-show-panel {
+     height: 110vh;
 
-  .location-show-panel-pano {
-    height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+   .location-show-panel-pano {
+     height: 50vh;
 
-  .horizontal-alone {
-    height: 80vh;
-  }
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
 
-  .horizontal-alone-two {
-    height: 100vh;
-  }
+   .location-show-big-panel-pano {
+     height: 90vh;
 
-  .vertical-alone {
-    height: 100vh;
-    margin-top: 200px;
-  }
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
 
-  .duo-vertical-first {
-    height: 80%;
-  }
+   .location-show-text em {
+     font-family: 'Libre Baskerville', serif;
+     width: 80%;
+   }
 
-  .duo-horizontal-first {
-    height: 50%;
-    margin-left: -30px;
-  }
+   .horizontal-alone {
+     height: 80vh;
+   }
 
-  .pano-first {
-    width: 90%;
-  }
+   .horizontal-alone-two {
+     height: 100vh;
+   }
 
-  .duo-vertical-two {
-    height: 60%;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+   .vertical-alone {
+     height: 100vh;
+     margin-bottom: 50px;
+   }
 
-  .duo-vertical-three {
-    height: 80%;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+   .duo-vertical-first {
+     height: 80%;
+   }
+
+   .duo-horizontal-first {
+     height: 50%;
+     margin-left: -30px;
+   }
+
+   .duo-horizontal-two {
+     height: 50%;
+     margin: 30px;
+   }
+
+   .duo-horizontal-three {
+     height: 50%;
+     margin: 30px;
+   }
+
+   .pano-first {
+     width: 90%;
+   }
+
+   .duo-vertical-two {
+     height: 60%;
+     margin-left: 10px;
+     margin-right: 10px;
+   }
+
+   .duo-vertical-three {
+     height: 80%;
+     margin-left: 10px;
+     margin-right: 10px;
+   }
 }
 
 
@@ -188,76 +215,100 @@ THREE
 */
 @media (min-width: 768px) and (max-width: 1024px) {
   .location-show-banner {
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
+     background-size: cover;
+     background-position: center;
+     height: 90vh;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
 
-    h1 {
-      font-size: 90px;
-      color: white;
-    }
-  }
+     margin-bottom: 100px;
 
-  .location-show-panel {
-    height: 110vh;
-    width: 100vw;
-    overflow: hidden;
+     h1 {
+       font-size: 150px;
+       text-align: center;
+       color: white;
+       text-shadow: 4px 4px 4px black;
+     }
+   }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+   .location-show-panel {
+     height: 110vh;
 
-  .location-show-panel-pano {
-    height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+   .location-show-panel-pano {
+     height: 50vh;
 
-  .horizontal-alone {
-    height: 80vh;
-  }
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
 
-  .horizontal-alone-two {
-    height: 100vh;
-  }
+   .location-show-big-panel-pano {
+     height: 90vh;
 
-  .vertical-alone {
-    height: 100vh;
-    margin-top: 200px;
-  }
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
 
-  .duo-vertical-first {
-    height: 80%;
-  }
+   .location-show-text em {
+     font-family: 'Libre Baskerville', serif;
+     width: 80%;
+   }
 
-  .duo-horizontal-first {
-    height: 50%;
-    margin-left: -30px;
-  }
+   .horizontal-alone {
+     height: 80vh;
+   }
 
+   .horizontal-alone-two {
+     height: 100vh;
+   }
 
-  .pano-first {
-    width: 90%;
-  }
+   .vertical-alone {
+     height: 100vh;
+     margin-bottom: 50px;
+   }
 
-  .duo-vertical-two {
-    height: 60%;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+   .duo-vertical-first {
+     height: 80%;
+   }
 
-  .duo-vertical-three {
-    height: 80%;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+   .duo-horizontal-first {
+     height: 50%;
+     margin-left: -30px;
+   }
+
+   .duo-horizontal-two {
+     height: 50%;
+     margin: 30px;
+   }
+
+   .duo-horizontal-three {
+     height: 50%;
+     margin: 30px;
+   }
+
+   .pano-first {
+     width: 90%;
+   }
+
+   .duo-vertical-two {
+     height: 60%;
+     margin-left: 10px;
+     margin-right: 10px;
+   }
+
+   .duo-vertical-three {
+     height: 80%;
+     margin-left: 10px;
+     margin-right: 10px;
+   }
 }
 
 
@@ -269,74 +320,100 @@ FOUR
 */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .location-show-banner {
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
+     background-size: cover;
+     background-position: center;
+     height: 90vh;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
 
-    h1 {
-      font-size: 150px;
-      color: white;
-    }
-  }
+     margin-bottom: 100px;
 
-  .location-show-panel {
-    height: 110vh;
+     h1 {
+       font-size: 150px;
+       text-align: center;
+       color: white;
+       text-shadow: 4px 4px 4px black;
+     }
+   }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+   .location-show-panel {
+     height: 110vh;
 
-  .location-show-panel-pano {
-    height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+   .location-show-panel-pano {
+     height: 50vh;
 
-  .horizontal-alone {
-    height: 80vh;
-  }
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
 
-  .horizontal-alone-two {
-    height: 100vh;
-  }
+   .location-show-big-panel-pano {
+     height: 90vh;
 
-  .vertical-alone {
-    height: 100vh;
-    margin-top: 200px;
-  }
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
 
-  .duo-vertical-first {
-    height: 80%;
-  }
+   .location-show-text em {
+     font-family: 'Libre Baskerville', serif;
+     width: 80%;
+   }
 
-  .duo-horizontal-first {
-    height: 50%;
-    margin-left: -30px;
-  }
+   .horizontal-alone {
+     height: 80vh;
+   }
 
+   .horizontal-alone-two {
+     height: 100vh;
+   }
 
-  .pano-first {
-    width: 90%;
-  }
+   .vertical-alone {
+     height: 100vh;
+     margin-bottom: 50px;
+   }
 
-  .duo-vertical-two {
-    height: 60%;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+   .duo-vertical-first {
+     height: 80%;
+   }
 
-  .duo-vertical-three {
-    height: 80%;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+   .duo-horizontal-first {
+     height: 50%;
+     margin-left: -30px;
+   }
+
+   .duo-horizontal-two {
+     height: 50%;
+     margin: 30px;
+   }
+
+   .duo-horizontal-three {
+     height: 50%;
+     margin: 30px;
+   }
+
+   .pano-first {
+     width: 90%;
+   }
+
+   .duo-vertical-two {
+     height: 60%;
+     margin-left: 10px;
+     margin-right: 10px;
+   }
+
+   .duo-vertical-three {
+     height: 80%;
+     margin-left: 10px;
+     margin-right: 10px;
+   }
 }
 
 
@@ -348,74 +425,100 @@ FIVE
 */
 @media (min-width: 481px) and (max-width: 767px) {
   .location-show-banner {
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
+     background-size: cover;
+     background-position: center;
+     height: 90vh;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
 
-    h1 {
-      font-size: 150px;
-      color: white;
-    }
-  }
+     margin-bottom: 100px;
 
-  .location-show-panel {
-    height: 110vh;
+     h1 {
+       font-size: 150px;
+       text-align: center;
+       color: white;
+       text-shadow: 4px 4px 4px black;
+     }
+   }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+   .location-show-panel {
+     height: 110vh;
 
-  .location-show-panel-pano {
-    height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+   .location-show-panel-pano {
+     height: 50vh;
 
-  .horizontal-alone {
-    height: 80vh;
-  }
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
 
-  .horizontal-alone-two {
-    height: 100vh;
-  }
+   .location-show-big-panel-pano {
+     height: 90vh;
 
-  .vertical-alone {
-    height: 100vh;
-    margin-top: 200px;
-  }
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
 
-  .duo-vertical-first {
-    height: 80%;
-  }
+   .location-show-text em {
+     font-family: 'Libre Baskerville', serif;
+     width: 80%;
+   }
 
-  .duo-horizontal-first {
-    height: 50%;
-    margin-left: -30px;
-  }
+   .horizontal-alone {
+     height: 80vh;
+   }
 
+   .horizontal-alone-two {
+     height: 100vh;
+   }
 
-  .pano-first {
-    width: 90%;
-  }
+   .vertical-alone {
+     height: 100vh;
+     margin-bottom: 50px;
+   }
 
-  .duo-vertical-two {
-    height: 60%;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+   .duo-vertical-first {
+     height: 80%;
+   }
 
-  .duo-vertical-three {
-    height: 80%;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+   .duo-horizontal-first {
+     height: 50%;
+     margin-left: -30px;
+   }
+
+   .duo-horizontal-two {
+     height: 50%;
+     margin: 30px;
+   }
+
+   .duo-horizontal-three {
+     height: 50%;
+     margin: 30px;
+   }
+
+   .pano-first {
+     width: 90%;
+   }
+
+   .duo-vertical-two {
+     height: 60%;
+     margin-left: 10px;
+     margin-right: 10px;
+   }
+
+   .duo-vertical-three {
+     height: 80%;
+     margin-left: 10px;
+     margin-right: 10px;
+   }
 }
 
 
@@ -427,76 +530,100 @@ SIX
 */
 @media (min-width: 320px) and (max-width: 480px) {
   .location-show-banner {
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
+     background-size: cover;
+     background-position: center;
+     height: 90vh;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
 
-    h1 {
-      font-size: 90px;
-      color: white;
-    }
-  }
+     margin-bottom: 100px;
 
-  .location-show-panel {
-    height: 110vh;
-    width: 100vw;
-    overflow: hidden;
+     h1 {
+       font-size: 150px;
+       text-align: center;
+       color: white;
+       text-shadow: 4px 4px 4px black;
+     }
+   }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+   .location-show-panel {
+     height: 110vh;
 
-  .location-show-panel-pano {
-    height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+   .location-show-panel-pano {
+     height: 50vh;
 
-  .horizontal-alone {
-    height: 80vh;
-  }
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
 
-  .horizontal-alone-two {
-    height: 100vh;
-  }
+   .location-show-big-panel-pano {
+     height: 90vh;
 
-  .vertical-alone {
-    height: 100vh;
-    padding: 100px;
-  }
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
 
-  .duo-vertical-first {
-    height: 80%;
-  }
+   .location-show-text em {
+     font-family: 'Libre Baskerville', serif;
+     width: 80%;
+   }
 
-  .duo-horizontal-first {
-    height: 50%;
-    margin-left: -30px;
-  }
+   .horizontal-alone {
+     height: 80vh;
+   }
 
+   .horizontal-alone-two {
+     height: 100vh;
+   }
 
-  .pano-first {
-    width: 90%;
-  }
+   .vertical-alone {
+     height: 100vh;
+     margin-bottom: 50px;
+   }
 
-  .duo-vertical-two {
-    height: 60%;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+   .duo-vertical-first {
+     height: 80%;
+   }
 
-  .duo-vertical-three {
-    height: 80%;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+   .duo-horizontal-first {
+     height: 50%;
+     margin-left: -30px;
+   }
+
+   .duo-horizontal-two {
+     height: 50%;
+     margin: 30px;
+   }
+
+   .duo-horizontal-three {
+     height: 50%;
+     margin: 30px;
+   }
+
+   .pano-first {
+     width: 90%;
+   }
+
+   .duo-vertical-two {
+     height: 60%;
+     margin-left: 10px;
+     margin-right: 10px;
+   }
+
+   .duo-vertical-three {
+     height: 80%;
+     margin-left: 10px;
+     margin-right: 10px;
+   }
 }
 
 

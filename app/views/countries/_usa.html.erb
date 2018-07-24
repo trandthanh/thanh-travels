@@ -3,7 +3,7 @@
     <% @usa_locations.each do |l| %>
       <div class="banner">
         <%= link_to location_path(l.url) do %>
-          <%= image_tag ("#{l.url}-baner.jpg"), class: "scroll one" %>
+          <%= image_tag ("#{l.url}-banner.jpg"), class: "scroll one" %>
           <div class="overlay">
             <h1><%= l.location_name %></h1>
           </div>
