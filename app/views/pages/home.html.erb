@@ -4,7 +4,9 @@
       <%= link_to location_path(@featured_locations[0].url) do %>
         <%= image_tag ("#{@featured_locations[0].url}-banner.jpg"), class: "scroll one" %>
         <div class="overlay">
-          <h1><%= @featured_locations[0].location_name %></h1>
+            <h1><%= @featured_locations[0].location_name %> </h1>
+            <br>
+            <h2><%= @featured_locations[0].country.country_name %>, <%= @featured_locations[0].continent.continent_name %></h2>
         </div>
       <% end %>
 
@@ -15,6 +17,8 @@
         <%= image_tag ("#{@featured_locations[1].url}-banner.jpg"), class: "scroll one" %>
         <div class="overlay">
           <h1><%= @featured_locations[1].location_name %></h1>
+          <br>
+          <h2><%= @featured_locations[1].country.country_name %>, <%= @featured_locations[1].continent.continent_name %></h2>
         </div>
       <% end %>
     </div>
@@ -24,6 +28,8 @@
         <%= image_tag ("#{@featured_locations[2].url}-banner.jpg"), class: "scroll one" %>
         <div class="overlay">
           <h1><%= @featured_locations[2].location_name %></h1>
+          <br>
+          <h2><%= @featured_locations[2].country.country_name %>, <%= @featured_locations[2].continent.continent_name %></h2>
         </div>
       <% end %>
     </div>
@@ -33,6 +39,8 @@
         <%= cl_image_tag ("thanh-travels/Copenhagen/#{@featured_locations[3].url}-banner.jpg"), class: "scroll one" %>
         <div class="overlay">
           <h1><%= @featured_locations[3].location_name %></h1>
+          <br>
+          <h2><%= @featured_locations[3].country.country_name %>, <%= @featured_locations[3].continent.continent_name %></h2>
         </div>
       <% end %>
     </div>
@@ -42,6 +50,8 @@
         <%= image_tag ("#{@featured_locations[4].url}-banner.jpg"), class: "scroll one" %>
         <div class="overlay">
           <h1><%= @featured_locations[4].location_name %></h1>
+          <br>
+          <h2><%= @featured_locations[4].country.country_name %>, <%= @featured_locations[4].continent.continent_name %></h2>
         </div>
       <% end %>
     </div>
