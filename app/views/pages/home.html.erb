@@ -30,7 +30,7 @@
 
     <div class="banner">
       <%= link_to location_path(@featured_locations[3].url) do %>
-        <%= image_tag ("#{@featured_locations[3].url}-baner.jpg"), class: "scroll one" %>
+        <%= cl_image_tag ("thanh-travels/Copenhagen/#{@featured_locations[3].url}-banner.jpg"), class: "scroll one" %>
         <div class="overlay">
           <h1><%= @featured_locations[3].location_name %></h1>
         </div>
