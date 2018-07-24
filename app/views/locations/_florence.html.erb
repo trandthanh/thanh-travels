@@ -1,1 +1,59 @@
-<h1>Hi you're in Florence!</h1>
+<div class="location-show-banner" style="background-image: url(<%= asset_path "#{@location.url}-banner.jpg" %>)">
+  <h1><%= @location.location_name.upcase %></h1>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag ("thanh-travels/#{@location.location_name}/#{@location.url}-photo-horizontal-1.jpg"), class: "horizontal-alone" %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag("thanh-travels/#{@location.location_name}/#{@location.url}-photo-vertical-1.jpg", :angle=>"auto_right", class: "vertical-alone") %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag("thanh-travels/#{@location.location_name}/#{@location.url}-photo-vertical-2.jpg", :angle=>"auto_right", class: "duo-horizontal-three") %>
+  <%= cl_image_tag("thanh-travels/#{@location.location_name}/#{@location.url}-photo-vertical-3.jpg", :angle=>"auto_right", class: "duo-horizontal-three") %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag ("thanh-travels/#{@location.location_name}/#{@location.url}-photo-horizontal-2.jpg"), class: "horizontal-alone-two" %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag ("thanh-travels/#{@location.location_name}/#{@location.url}-photo-horizontal-3.jpg"), class: "duo-horizontal-two" %>
+  <%= cl_image_tag ("thanh-travels/#{@location.location_name}/#{@location.url}-photo-horizontal-4.jpg"), class: "duo-horizontal-three" %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag ("thanh-travels/#{@location.location_name}/#{@location.url}-photo-square-2.jpg"), class: "duo-horizontal-two" %>
+  <%= cl_image_tag("thanh-travels/#{@location.location_name}/#{@location.url}-photo-square-1.jpg", :angle=>"auto_right", class: "duo-horizontal-three") %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag("thanh-travels/#{@location.location_name}/#{@location.url}-photo-vertical-5.jpg", :angle=>"auto_right", class: "vertical-alone") %>
+</div>
+
+<div class="location-show-big-panel-pano">
+  <%= cl_image_tag ("thanh-travels/#{@location.location_name}/#{@location.url}-photo-pano-1.jpg"), class: "pano-first" %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag ("thanh-travels/#{@location.location_name}/#{@location.url}-photo-horizontal-5.jpg"), class: "horizontal-alone" %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag ("thanh-travels/#{@location.location_name}/#{@location.url}-photo-horizontal-6.jpg"), class: "horizontal-alone" %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag ("thanh-travels/#{@location.location_name}/#{@location.url}-photo-horizontal-7.jpg"), class: "horizontal-alone" %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag("thanh-travels/#{@location.location_name}/#{@location.url}-photo-vertical-6.jpg", :angle=>"auto_right", class: "duo-horizontal-three") %>
+  <%= cl_image_tag("thanh-travels/#{@location.location_name}/#{@location.url}-photo-vertical-7.jpg", :angle=>"auto_right", class: "duo-horizontal-three") %>
+</div>
+
+<div class="location-show-panel">
+  <%= cl_image_tag("thanh-travels/#{@location.location_name}/#{@location.url}-photo-vertical-4.jpg", :angle=>"auto_right", class: "vertical-alone") %>
+</div>

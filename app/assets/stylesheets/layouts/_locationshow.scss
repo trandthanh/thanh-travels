@@ -13,6 +13,8 @@ ONE
     align-items: center;
     justify-content: center;
 
+    margin-bottom: 100px;
+
     h1 {
       font-size: 150px;
       text-align: center;
@@ -37,6 +39,14 @@ ONE
     align-items: center;
   }
 
+  .location-show-big-panel-pano {
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .location-show-text em {
     font-family: 'Libre Baskerville', serif;
     width: 80%;
@@ -52,6 +62,7 @@ ONE
 
   .vertical-alone {
     height: 100vh;
+    margin-bottom: 50px;
   }
 
   .duo-vertical-first {
@@ -139,6 +150,7 @@ TWO
 
   .vertical-alone {
     height: 100vh;
+    margin-top: 200px;
   }
 
   .duo-vertical-first {
@@ -218,6 +230,7 @@ THREE
 
   .vertical-alone {
     height: 100vh;
+    margin-top: 200px;
   }
 
   .duo-vertical-first {
@@ -296,6 +309,7 @@ FOUR
 
   .vertical-alone {
     height: 100vh;
+    margin-top: 200px;
   }
 
   .duo-vertical-first {
@@ -374,6 +388,7 @@ FIVE
 
   .vertical-alone {
     height: 100vh;
+    margin-top: 200px;
   }
 
   .duo-vertical-first {
@@ -454,6 +469,7 @@ SIX
 
   .vertical-alone {
     height: 100vh;
+    padding: 100px;
   }
 
   .duo-vertical-first {
