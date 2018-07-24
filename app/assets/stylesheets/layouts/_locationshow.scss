@@ -215,18 +215,20 @@ THREE
 */
 @media (min-width: 768px) and (max-width: 1024px) {
   .location-show-banner {
-     background-size: cover;
-     background-position: center;
-     height: 90vh;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
 
-     display: flex;
-     align-items: center;
-     justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-     margin-bottom: 100px;
+    margin-bottom: 100px;
+
+    overflow: hidden;
 
      h1 {
-       font-size: 150px;
+       font-size: 70px;
        text-align: center;
        color: white;
        text-shadow: 4px 4px 4px black;
@@ -234,19 +236,23 @@ THREE
    }
 
    .location-show-panel {
-     height: 110vh;
+    height: 110vh;
 
-     display: flex;
-     justify-content: center;
-     align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
    }
 
    .location-show-panel-pano {
-     height: 50vh;
+    height: 50vh;
 
-     display: flex;
-     justify-content: center;
-     align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
    }
 
    .location-show-big-panel-pano {
@@ -255,6 +261,8 @@ THREE
      display: flex;
      justify-content: center;
      align-items: center;
+
+
    }
 
    .location-show-text em {
@@ -320,18 +328,20 @@ FOUR
 */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .location-show-banner {
-     background-size: cover;
-     background-position: center;
-     height: 90vh;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
 
-     display: flex;
-     align-items: center;
-     justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-     margin-bottom: 100px;
+    margin-bottom: 100px;
+
+    overflow: hidden;
 
      h1 {
-       font-size: 150px;
+       font-size: 70px;
        text-align: center;
        color: white;
        text-shadow: 4px 4px 4px black;
@@ -339,19 +349,23 @@ FOUR
    }
 
    .location-show-panel {
-     height: 110vh;
+    height: 110vh;
 
-     display: flex;
-     justify-content: center;
-     align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
    }
 
    .location-show-panel-pano {
-     height: 50vh;
+    height: 50vh;
 
-     display: flex;
-     justify-content: center;
-     align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
    }
 
    .location-show-big-panel-pano {
@@ -360,6 +374,8 @@ FOUR
      display: flex;
      justify-content: center;
      align-items: center;
+
+
    }
 
    .location-show-text em {
@@ -425,18 +441,20 @@ FIVE
 */
 @media (min-width: 481px) and (max-width: 767px) {
   .location-show-banner {
-     background-size: cover;
-     background-position: center;
-     height: 90vh;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
 
-     display: flex;
-     align-items: center;
-     justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-     margin-bottom: 100px;
+    margin-bottom: 100px;
+
+    overflow: hidden;
 
      h1 {
-       font-size: 150px;
+       font-size: 70px;
        text-align: center;
        color: white;
        text-shadow: 4px 4px 4px black;
@@ -444,19 +462,23 @@ FIVE
    }
 
    .location-show-panel {
-     height: 110vh;
+    height: 110vh;
 
-     display: flex;
-     justify-content: center;
-     align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
    }
 
    .location-show-panel-pano {
-     height: 50vh;
+    height: 50vh;
 
-     display: flex;
-     justify-content: center;
-     align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
    }
 
    .location-show-big-panel-pano {
@@ -465,6 +487,8 @@ FIVE
      display: flex;
      justify-content: center;
      align-items: center;
+
+
    }
 
    .location-show-text em {
@@ -530,18 +554,20 @@ SIX
 */
 @media (min-width: 320px) and (max-width: 480px) {
   .location-show-banner {
-     background-size: cover;
-     background-position: center;
-     height: 90vh;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
 
-     display: flex;
-     align-items: center;
-     justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-     margin-bottom: 100px;
+    margin-bottom: 100px;
+
+    overflow: hidden;
 
      h1 {
-       font-size: 150px;
+       font-size: 40px;
        text-align: center;
        color: white;
        text-shadow: 4px 4px 4px black;
@@ -549,19 +575,23 @@ SIX
    }
 
    .location-show-panel {
-     height: 110vh;
+    height: 110vh;
 
-     display: flex;
-     justify-content: center;
-     align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
    }
 
    .location-show-panel-pano {
-     height: 50vh;
+    height: 50vh;
 
-     display: flex;
-     justify-content: center;
-     align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
    }
 
    .location-show-big-panel-pano {
@@ -570,6 +600,8 @@ SIX
      display: flex;
      justify-content: center;
      align-items: center;
+
+
    }
 
    .location-show-text em {
