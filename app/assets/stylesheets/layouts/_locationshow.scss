@@ -4,6 +4,19 @@ ONE
 ##Screen = 1281px to higher resolution desktops
 */
 @media (min-width: 1281px) {
+  .country-tags {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    h6 {
+      font-weight: 700;
+    }
+    a {
+      color: black;
+      text-decoration: underline;
+    }
+  }
+
   .location-show-banner {
     background-size: cover;
     background-position: center;
@@ -109,6 +122,19 @@ TWO
 ##Screen = B/w 1025px to 1280px
 */
 @media (min-width: 1025px) and (max-width: 1280px) {
+  .country-tags {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    h6 {
+      font-weight: 700;
+    }
+    a {
+      color: black;
+      text-decoration: underline;
+    }
+  }
+
   .location-show-banner {
      background-size: cover;
      background-position: center;
@@ -214,6 +240,19 @@ THREE
 ##Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width: 1024px) {
+  .country-tags {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    h6 {
+      font-weight: 700;
+    }
+    a {
+      color: black;
+      text-decoration: underline;
+    }
+  }
+
   .location-show-banner {
     background-size: cover;
     background-position: center;
@@ -327,6 +366,19 @@ FOUR
 ##Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .country-tags {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    h6 {
+      font-weight: 700;
+    }
+    a {
+      color: black;
+      text-decoration: underline;
+    }
+  }
+
   .location-show-banner {
     background-size: cover;
     background-position: center;
@@ -440,6 +492,19 @@ FIVE
 ##Screen = B/w 481px to 767px
 */
 @media (min-width: 481px) and (max-width: 767px) {
+  .country-tags {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    h6 {
+      font-weight: 700;
+    }
+    a {
+      color: black;
+      text-decoration: underline;
+    }
+  }
+
   .location-show-banner {
     background-size: cover;
     background-position: center;
@@ -553,6 +618,22 @@ SIX
 ##Screen = B/w 320px to 479px
 */
 @media (min-width: 320px) and (max-width: 480px) {
+  .country-tags {
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+
+    h6 {
+      font-weight: 700;
+    }
+    a {
+      color: black;
+      text-decoration: underline;
+    }
+  }
+
   .location-show-banner {
     background-size: cover;
     background-position: center;

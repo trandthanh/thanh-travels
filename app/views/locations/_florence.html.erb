@@ -1,3 +1,13 @@
+<div class="country-tags">
+  <h6>
+    <%= @location.continent.continent_name %>
+    >
+    <%= link_to country_path(@location.country.country_name.downcase) do %>
+      <%= @location.country.country_name %>
+    <% end %>
+  </h6>
+</div>
+
 <div class="location-show-banner" style="background-image: url(<%= asset_path "#{@location.url}-banner.jpg" %>)">
   <h1><%= @location.location_name.upcase %></h1>
 </div>

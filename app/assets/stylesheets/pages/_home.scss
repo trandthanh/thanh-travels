@@ -151,10 +151,15 @@ TWO
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
     h1 {
       color: black;
       font-size: 60px;
+    }
+    h2 {
+      color: black;
+      font-size: 40px;
     }
   }
 
@@ -233,10 +238,15 @@ THREE
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
     h1 {
       color: black;
       font-size: 60px;
+    }
+    h2 {
+      color: black;
+      font-size: 40px;
     }
   }
 
@@ -324,10 +334,15 @@ FOUR
       display: flex;
       align-items: center;
       justify-content: center;
+      flex-direction: column;
 
       h1 {
         color: black;
         font-size: 60px;
+      }
+      h2 {
+        color: black;
+        font-size: 40px;
       }
     }
 
@@ -406,10 +421,15 @@ FIVE
       display: flex;
       align-items: center;
       justify-content: center;
+      flex-direction: column;
 
       h1 {
         color: black;
         font-size: 60px;
+      }
+      h2 {
+        color: black;
+        font-size: 40px;
       }
     }
 
@@ -488,10 +508,15 @@ SIX
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
     h1 {
       color: black;
       font-size: 60px;
+    }
+    h2 {
+      color: black;
+      font-size: 40px;
     }
   }
 

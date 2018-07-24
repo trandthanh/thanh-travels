@@ -6,6 +6,8 @@
           <%= cl_image_tag ("thanh-travels/Copenhagen/#{l.url}-banner.jpg"), class: "scroll one" %>
           <div class="overlay">
             <h1><%= l.location_name %></h1>
+            <br>
+            <h2><%= l.country.country_name %>, <%= l.continent.continent_name %></h2>
           </div>
         <% end %>
       </div>
