@@ -29,7 +29,7 @@ ONE
     margin-bottom: 100px;
 
     h1 {
-      font-size: 150px;
+      font-size: 110px;
       text-align: center;
       color: white;
       text-shadow: 4px 4px 4px black;
@@ -58,6 +58,11 @@ ONE
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .location-show-text {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .location-show-text em {
@@ -147,7 +152,7 @@ TWO
      margin-bottom: 100px;
 
      h1 {
-       font-size: 150px;
+       font-size: 110px;
        text-align: center;
        color: white;
        text-shadow: 4px 4px 4px black;
@@ -176,6 +181,11 @@ TWO
      display: flex;
      justify-content: center;
      align-items: center;
+   }
+
+   .location-show-text {
+     padding-left: 50px;
+     padding-right: 50px;
    }
 
    .location-show-text em {
@@ -300,8 +310,11 @@ THREE
      display: flex;
      justify-content: center;
      align-items: center;
+   }
 
-
+   .location-show-text {
+     padding-left: 50px;
+     padding-right: 50px;
    }
 
    .location-show-text em {
@@ -430,6 +443,11 @@ FOUR
 
    }
 
+   .location-show-text {
+     padding-left: 30px;
+     padding-right: 30px;
+   }
+
    .location-show-text em {
      font-family: 'Libre Baskerville', serif;
      width: 80%;
@@ -552,8 +570,11 @@ FIVE
      display: flex;
      justify-content: center;
      align-items: center;
+   }
 
-
+   .location-show-text {
+     padding-left: 30px;
+     padding-right: 30px;
    }
 
    .location-show-text em {
@@ -681,8 +702,11 @@ SIX
      display: flex;
      justify-content: center;
      align-items: center;
+   }
 
-
+   .location-show-text {
+     padding-left: 30px;
+     padding-right: 30px;
    }
 
    .location-show-text em {
